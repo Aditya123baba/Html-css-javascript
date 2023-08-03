@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: purple;
+            background-color: #d8da3d;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding-left:11em ;
+        }
+        h1{
+            font-family: algerian;
+
+        }
+        ul.navbar{
+            position: absolute;
+            top:2em;
+            left: 1em;
+            width: 9em;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul.navbar li{
+            background: white;
+            margin: 0.5em 0;
+            padding: 0.3em;
+            border-top: 1em solid black;
+        }
+        ul.navbar a{
+            text-decoration: none;
+        }
+        a:link{
+            color:blue;
+        }
+        a:visited
+        {
+            color: purple;
+        }
+        address
+        {
+            margin-top: 1em;
+            padding-top: 1em;
+            border-top: thin dotted;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="">Home</a></li>
+        <li><a href="">Sign Up</a></li>
+        <li><a href="signin.html">Sign In</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+    </ul> 
+    <h1>My First Web Page design</h1>
+    <p>Welcome to My Web Site</p>
+    <form action="method">
+        <table>
+            <tr>
+                <td>
+                    <label>User Name</label>
+                </td>
+                <td>
+                    <input type="text"name="uname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password</label>
+                </td>
+                <td>
+                    <input type="Password"name="passwd">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button">Login</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <address>
+        &copy All Right Are Reserved <br/>
+        Mail to <a href="">info@appsquadz</a>
+    </address>   
+</body>
+</html>
